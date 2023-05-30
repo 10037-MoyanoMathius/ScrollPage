@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+section .container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Pacifico', cursive;
+    padding: 5%;
+}
+section .container p{
+    padding-top: 3%;
+    
+    font-size:large;
+    font-family: 'Acme', sans-serif;
+}
+#front-end{
+    background-color: rgb(89, 99, 160);
+    color: white;
+}
+#js{
+    background-color: rgba(255, 255, 0, 0.81);
+}
+#html{
+    background-color: rgb(222, 130, 38);
+}
+#css{
+    background-color: rgb(0, 191, 255);
+}
+#bootstrap{
+    background-color: rgb(100, 28, 168);
+    color: white;
+}
+#github{
+    background-color: black;
+    color: white;
+}
